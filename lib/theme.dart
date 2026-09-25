@@ -10,7 +10,7 @@ class NotesTheme {
         colorScheme: ColorScheme.fromSeed(seedColor: mint, brightness: Brightness.light),
         scaffoldBackgroundColor: cream,
         appBarTheme: const AppBarTheme(backgroundColor: Colors.transparent, elevation: 0, scrolledUnderElevation: 0),
-        cardTheme: CardTheme(elevation: 0, margin: EdgeInsets.zero, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(22))),
+        cardTheme: CardThemeData(elevation: 0, margin: EdgeInsets.zero, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(22))),
         inputDecorationTheme: InputDecorationTheme(filled: true, fillColor: Colors.white.withOpacity(.72), border: OutlineInputBorder(borderRadius: BorderRadius.circular(18), borderSide: BorderSide.none)),
       );
 
